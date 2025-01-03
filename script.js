@@ -336,6 +336,174 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Rum-soaked sponge cake.',
             price: '$5.99'
         },
+        {
+            title: 'Pastiera Napoletana',
+            imgSrc: 'https://media.istockphoto.com/id/1220437761/photo/italian-food-traditional-pastiera-napoletana.jpg?s=612x612&w=0&k=20&c=iVnnGt1htUQqmeXB8qIa9tHv1uFIJXaLovktG6FKwp4=',
+            description: 'Traditional Neapolitan pie with wheat, ricotta, and orange blossom water.',
+            price: '$6.99'
+        },
+        {
+            title: 'Struffoli',
+            imgSrc: 'https://media.istockphoto.com/id/1151465149/photo/homemade-sweet-italian-struffoli.jpg?s=612x612&w=0&k=20&c=xdO3fISdyT-fyO80ElJYyvMBALlKi7rwhzSA3plI00I=',
+            description: 'Small fried dough balls coated in honey and sprinkles.',
+            price: '$5.99'
+        },
+        {
+            title: 'Zeppole di San Giuseppe',
+            imgSrc: 'https://media.istockphoto.com/id/1470732901/photo/italian-pastry-zeppole-di-san-giuseppe-zeppola-baked-puffs-made-from-choux-pastry-filled-and.jpg?s=612x612&w=0&k=20&c=ldGqIVWr_UTtBh4CJEuSVu1Pu4VlJnSVXWSoF3rsVX0=',
+            description: "Cream-filled pastries traditionally made for St. Joseph's Day.",
+            price: '$4.99'
+        },
+        {
+            title: 'Cassata Siciliana',
+            imgSrc: 'https://media.istockphoto.com/id/1394901423/photo/italian-dessert-cassata-siciliana-typical-sicilian-cheese-cake-made-with-almond-sponge-cake.jpg?s=612x612&w=0&k=20&c=YQGuU75Wa10KtetO4HH7Zm3f0ztfnGfPak9p56LhkH4=',
+            description: 'Layered sponge cake with ricotta, candied fruit, and marzipan.',
+            price: '$7.99'
+        },
+        {
+            title: 'Torta Caprese',
+            imgSrc: 'https://media.istockphoto.com/id/1301800006/photo/torta-caprese-made-of-chocolate-and-almonds.jpg?s=612x612&w=0&k=20&c=MTkpgVojrXiN9czsZ-Wy8NFULu1qucsmz9GOGPtIOsU=',
+            description: 'Flourless chocolate and almond cake from Capri.',
+            price: '$8.99'
+        },
+        {
+            title: 'Panettone',
+            imgSrc: 'https://media.istockphoto.com/id/184924750/photo/italian-panettone.jpg?s=1024x1024&w=is&k=20&c=weeFGVc_FbZEVJMz87Scs3icuP1vo4fppbyluA0oCDo=',
+            description: 'Sweet bread loaf with dried fruits and candied citrus.',
+            price: '$10.99'
+        },
+        {
+            title: 'Pandoro',
+            imgSrc: 'https://media.istockphoto.com/id/1366265851/photo/pandoro-italian-christmas-cake.jpg?s=612x612&w=0&k=20&c=OQFLfp_qf02GPoquNW37EJUiWesvqXikoCj28Beb2mM=',
+            description: 'Golden star-shaped sweet bread dusted with powdered sugar.',
+            price: '$9.99'
+        },
+        {
+            title: 'Torrone',
+            imgSrc: 'https://media.istockphoto.com/id/1290080578/photo/torrone-soft-italian-nougat-with-almonds-winter-decoration-brown-background-copy-space.jpg?s=612x612&w=0&k=20&c=idAr4fEQg1K_eZk81uZ9Oes0Lyy7evn7xRj0zk9XTVI=',
+            description: 'Nougat made with honey, egg whites, and nuts.',
+            price: '$6.99'
+        },
+        {
+            title: 'Chiacciere',
+            imgSrc: 'https://media.istockphoto.com/id/1299463425/photo/italian-carnival-and-typical-food-sfrappole-or-chiachiere-or-angel-wings-on-a-woody.jpg?s=612x612&w=0&k=20&c=4nNTq9ZMfXb7VmNfxlsHvN97gmBcZdyeLTan9vx61AE=',
+            description: 'Crispy fried pastries sprinkled with powdered sugar.',
+            price: '$4.99'
+        },
+        {
+            title: 'Biscotti',
+            imgSrc: 'https://media.istockphoto.com/id/909510204/photo/italian-cranberry-almond-biscotti-and-cup-of-coffee.jpg?s=612x612&w=0&k=20&c=TkCpbuM0mUUxoslm2RhEgatRVr-2SklrXjFL5ftBz1o=',
+            description: 'Crunchy almond cookies perfect for dipping in coffee.',
+            price: '$3.99'
+        },
+        {
+            title: 'Pane di Altamura',
+            imgSrc: 'https://media.istockphoto.com/id/1199148793/photo/apulian-bread-altamura-italian-bread.jpg?s=612x612&w=0&k=20&c=vufb2-VT9A3-Jl0-8FvClAoXlF4CxqXP8b-o4QP2Z44=',
+            description: 'Crusty bread from the Altamura region of Puglia.',
+            price: '$5.99'
+        },
+        {
+            title: 'Focaccia',
+            imgSrc: 'https://media.istockphoto.com/id/544333618/photo/mozzarella-and-tomato-sandwich.jpg?s=612x612&w=0&k=20&c=G-OSprMoTTFEpkMlU4GBrvu9lk-57j376QjwmI3QxG0=',
+            description: 'Flat oven-baked bread topped with olive oil and herbs.',
+            price: '$4.99'
+        },
+        {
+            title: 'Ciabatta',
+            imgSrc: 'https://media.istockphoto.com/id/1081696802/photo/closeup-of-fresh-display-of-stacked-pile-of-panini-bread-mozzarella-melted-cheese-vegetarian.jpg?s=612x612&w=0&k=20&c=8O_pHCxqw_xTeTMnJWWZxa8ojXSZykYBbeXIWxRwJ1w=',
+            description: 'Rustic bread with a soft, airy interior and crispy crust.',
+            price: '$3.99'
+        },
+        {
+            title: 'Taralli',
+            imgSrc: 'https://media.istockphoto.com/id/1307780857/photo/taralli-traditional-italian-snack-food-typical-of-apulia-regional-cuisine.jpg?s=612x612&w=0&k=20&c=yjZGDhF42kUaSaBKXsRCE9KNNPC-2xNTlk5DPX_XZIg=',
+            description: 'Savory or sweet ring-shaped crackers.',
+            price: '$3.99'
+        },
+        {
+            title: 'Grissini',
+            imgSrc: 'https://media.istockphoto.com/id/1419282424/photo/grissini-staing-in-glass-with-blue-cheese-bread-stick-italian-traditional-cuisine-close.jpg?s=612x612&w=0&k=20&c=vaitvYFPiMR0VjYBTrnpoSEeaKeUoVNgiiE1PgnZuOA=',
+            description: 'Crunchy breadsticks often served with antipasti.',
+            price: '$2.99'
+        },
+        {
+            title: 'Cacciucco',
+            imgSrc: 'https://media.istockphoto.com/id/1035372634/photo/cacciucco-fish-soup-of-livorno-city.jpg?s=612x612&w=0&k=20&c=GqSajD1z--XqIgI2Q5mIBEcOvQRLvDNWj3amP46xpTY=',
+            description: 'Tuscan seafood stew with a mix of fish and shellfish.',
+            price: '$18.99'
+        },
+        {
+            title: 'Bagna Cauda',
+            imgSrc: 'https://media.istockphoto.com/id/1070416908/photo/bagna-cauda.jpg?s=612x612&w=0&k=20&c=SVnxSoKjw5EyVw70eaUWA8eH0-pHgD_zP0XGY61mVaU=',
+            description: 'Warm dip made from garlic, anchovies, and olive oil.',
+            price: '$12.99'
+        },
+        {
+            title: 'Ribollita',
+            imgSrc: 'https://media.istockphoto.com/id/174853955/photo/ribollita-iasels.jpg?s=612x612&w=0&k=20&c=KaxccI4MyZSUx71QWob920icP0JI_44vEXOJTHYDqyE=',
+            description: 'Tuscan soup with bread, beans, and vegetables.',
+            price: '$9.99'
+        },
+        {
+            title: 'Acquacotta',
+            imgSrc: 'https://media.istockphoto.com/id/525123261/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%94%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1-acquacotta.jpg?s=1024x1024&w=is&k=20&c=zhKeuqy-2zOOl5tznudR2kbjBwlB1oRr8_PCdPwjjmY=',
+            description: 'Rustic soup from Maremma made with vegetables, bread, and olive oil.',
+            price: '$8.99'
+        },
+        {
+            title: 'Carabaccia',
+            imgSrc: 'https://media.istockphoto.com/id/508422440/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%A3%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B4%E0%B9%89%E0%B8%99.jpg?s=1024x1024&w=is&k=20&c=D_TH92-uLNC24CNSGGeB4Y6_DDSo233w-g_xx60szs4=',
+            description: 'Tuscan onion soup with a hint of cinnamon.',
+            price: '$7.99'
+        },
+        {
+            title: 'Pappa al Pomodoro',
+            imgSrc: 'https://media.istockphoto.com/id/185449977/photo/soup-or-pappa-al-pomodoro.jpg?s=612x612&w=0&k=20&c=baTzof0QS-R_hOuJ3BsgFFXvaimupBpBzVJk_9mDXx4=',
+            description: 'Thick tomato and bread soup.',
+            price: '$9.99'
+        },
+        {
+            title: 'Stracotto',
+            imgSrc: 'https://media.istockphoto.com/id/119445278/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%84%E0%B8%AA%E0%B9%89%E0%B8%81%E0%B8%A3%E0%B8%AD%E0%B8%81-chorizo%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%95%E0%B8%B9%E0%B8%A7%E0%B9%8C%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7.jpg?s=1024x1024&w=is&k=20&c=_B_ZKu1F5XdttOQAIQA3mA37FN3kv0srIGwYd5rfimc=',
+            description: 'Braised beef cooked slowly in red wine.',
+            price: '$19.99'
+        },
+        {
+            title: 'Arrosticini',
+            imgSrc: 'https://media.istockphoto.com/id/614533452/photo/abruzzo-italian-food.jpg?s=612x612&w=0&k=20&c=ov1OQZKkTGvIlV9bER2OX7rH4e0w0c2TtZFiNoauuB4=',
+            description: 'Skewered lamb cooked over an open flame.',
+            price: '$14.99'
+        },
+        {
+            title: 'Peposo',
+            imgSrc: 'https://media.istockphoto.com/id/626466772/photo/peposo-tuscan-peppered-beef-stew.jpg?s=612x612&w=0&k=20&c=1oihhvIm0U78N6EW5lKUXhTjiaBA_Xx4WBIRZBfRCVw=',
+            description: 'Tuscan black pepper beef stew.',
+            price: '$17.99'
+        },
+        {
+            title: 'Farinata',
+            imgSrc: 'https://media.istockphoto.com/id/537831488/photo/porridge.jpg?s=612x612&w=0&k=20&c=KIhgX58fBZKcFQlztxmGRW29XHk9fQpJsaLpPPUXBT4=',
+            description: 'Savory pancake made from chickpea flour.',
+            price: '$6.99'
+        },
+        {
+            title: 'Panelle',
+            imgSrc: 'https://media.istockphoto.com/id/1440168896/photo/close-up-of-pancakes-made-from-chickpea-flour-and-parsley-of-the-typical-sicilian-street-food.jpg?s=612x612&w=0&k=20&c=lnWLd-TzmThhpGl98MZIezwZ-YpxEURC2fJpCxZeoCk=',
+            description: 'Sicilian chickpea fritters.',
+            price: '$5.99'
+        },
+        {
+            title: 'Piadina',
+            imgSrc: 'https://media.istockphoto.com/id/1352917800/photo/piadina-sandwich-tasty-italian-piadina-stuffed-with-ham-cheese-and-vegetables.jpg?s=612x612&w=0&k=20&c=R4k9qjQle3bZ_wsm09H37G7AYwq-xkhkpM3OpqDldHs=',
+            description: 'Italian flatbread often filled with meats and cheeses.',
+            price: '$7.99'
+        },
+        {
+            title: 'Sfincione',
+            imgSrc: 'https://media.istockphoto.com/id/1846984264/photo/sfincione-typical-oven-baked-focaccia-very-soft-and-seasoned-with-tomato-onion-anchovies.jpg?s=612x612&w=0&k=20&c=uDPfY2dR4pktwl-gBp_ORaeCVDbNIxGuovTh5AkCr8g=',
+            description: 'Sicilian pizza with onions, anchovies, and breadcrumbs.',
+            price: '$8.99'
+        },
     ];
 
     const container = document.querySelector('.container');
