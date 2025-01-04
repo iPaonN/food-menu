@@ -504,6 +504,150 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'Sicilian pizza with onions, anchovies, and breadcrumbs.',
             price: '$8.99'
         },
+        {
+            title: 'Cassatella di Sant’Agata',
+            imgSrc: 'https://media.istockphoto.com/id/487203515/photo/berry-cake.jpg?s=612x612&w=is&k=20&c=ek11P0Bng8tPxyawIl5dIFmlteqotP4t-fyKKQaNXjc=',
+            description: 'A small cake filled with ricotta and topped with icing and a cherry.',
+            price: '$5.99'
+        },
+        {
+            title: 'Pasta alla Norma',
+            imgSrc: 'https://media.istockphoto.com/id/1377782521/photo/pasta-alla-norma-italian-pasta-with-eggplante-tomato-sauce-and-parmesan-cheese.jpg?s=612x612&w=0&k=20&c=XgfrKCEKPYdnTU_F8tgK53QQzvsxjlwf9LkvLTliS3I=',
+            description: 'Pasta with tomato sauce, fried eggplant, and ricotta salata.',
+            price: '$12.99'
+        },
+        {
+            title: 'Involtini di Pesce Spada',
+            imgSrc: 'https://media.istockphoto.com/id/505977285/es/foto/involtini-di-pesce-spada.jpg?s=1024x1024&w=is&k=20&c=JHq2A_Hz4QtNPwjIP29tB31vYkhsQC6kYmbdUSMfkVc=',
+            description: 'Swordfish rolls stuffed with breadcrumbs, raisins, and pine nuts.',
+            price: '$18.99'
+        },
+        {
+            title: 'Caponata di Pesce Spada',
+            imgSrc: 'https://media.istockphoto.com/id/521429594/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%84%E0%B8%B2%E0%B9%82%E0%B8%9B%E0%B8%99%E0%B8%B2%E0%B8%95%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B0%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B8%AD%E0%B9%83%E0%B8%99%E0%B9%81%E0%B8%9C%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%99%E0%B9%81%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%AD%E0%B8%99.jpg?s=1024x1024&w=is&k=20&c=MiM8Grp3RMV2WgMq-NUTQ2JZ0sHMcww-wm5EDsO6tjo=',
+            description: 'Eggplant stew with swordfish, capers, and olives.',
+            price: '$16.99'
+        },
+        {
+            title: 'Arancini al Burro',
+            imgSrc: 'https://media.istockphoto.com/id/1705538082/photo/recipe-for-arancini-with-zucchini-in-a-small-format-similar-to-a-spanish-tapa-crequette.jpg?s=612x612&w=0&k=20&c=B2Lou2FaVkeXQyVLwab6P0c1BJJiC0Hd6_53bLUB-Es=',
+            description: 'Creamy risotto balls with butter and cheese filling.',
+            price: '$7.99'
+        },
+        {
+            title: 'Pignolata',
+            imgSrc: 'https://media.istockphoto.com/id/1284892645/photo/sicilian-pignolata-dessert-messina-sicily.jpg?s=612x612&w=is&k=20&c=ixeJbJDl4ktO8FTn8biC0UkVi_yUNHs_wMJl28iyOkY=',
+            description: 'Sweet fried dough balls coated in honey or chocolate.',
+            price: '$6.99'
+        },
+        {
+            title: 'Scaccia',
+            imgSrc: 'https://media.istockphoto.com/id/530234975/es/foto/listos-para-cocinar.jpg?s=1024x1024&w=is&k=20&c=Vdedx517nwFUWmQbaqsPbG30fO2X0SL1kUkrH-4KrxU=',
+            description: 'Sicilian folded flatbread filled with tomato and cheese.',
+            price: '$9.99'
+        },
+        {
+            title: 'Cannolicchi',
+            imgSrc: 'https://media.istockphoto.com/id/1568992902/it/foto/immagine-di-cannolicchi-freschi-al-mercato-del-pesce-in-portogallo.jpg?s=612x612&w=0&k=20&c=bW_nP07MlIajREKc0DgOnCX9VSLNiwoSqAhH0qXKgDQ=',
+            description: 'Razor clams served with garlic, parsley, and olive oil.',
+            price: '$14.99'
+        },
+        {
+            title: 'Seadas',
+            imgSrc: 'https://media.istockphoto.com/id/672509480/photo/seadas-sardinia.jpg?s=612x612&w=0&k=20&c=_IYcnpTbUbJlMy3OF19PeGLqzXRYrJMfLTHjwi7i3pI=',
+            description: 'Sardinian pastry filled with cheese and drizzled with honey.',
+            price: '$7.99'
+        },
+        {
+            title: 'Fregola con Arselle',
+            imgSrc: 'https://media.istockphoto.com/id/1325870850/photo/italian-pasta-fregula-with-seafood-on-a-white-wood-surface.jpg?s=612x612&w=0&k=20&c=hGWHskJva9-OUWVUGpR7FptH7gsPnxHo84jCt_5qZtw=',
+            description: 'Sardinian pasta with clams and a light tomato sauce.',
+            price: '$15.99'
+        },
+        {
+            title: 'Pasta con le Sarde',
+            imgSrc: 'https://media.istockphoto.com/id/1307375970/photo/spaghetti-bucatini-with-sardines.jpg?s=612x612&w=0&k=20&c=P8r0zlMPPAGn0f3JDi7xZz7I7jFePxQ3f7HiaGQ0_K4=',
+            description: 'Pasta with sardines, fennel, pine nuts, and raisins.',
+            price: '$13.99'
+        },
+        {
+            title: 'Malloreddus',
+            imgSrc: 'https://media.istockphoto.com/id/478199753/photo/malloreddus-with-ragout-sardinian-cuisine.jpg?s=612x612&w=is&k=20&c=I1rdB44kwiobYuq-WVESQSFcRx-qwAhSV5Q4NwnAOXQ=',
+            description: 'Sardinian gnocchi served with sausage and tomato sauce.',
+            price: '$12.99'
+        },
+        {
+            title: 'Bottarga',
+            imgSrc: 'https://media.istockphoto.com/id/1383036576/photo/bottarga.jpg?s=612x612&w=0&k=20&c=vDFKsIW7HO4lWwviPBnvvKybSw16oPgnXddn9XT3HeQ=',
+            description: 'Cured fish roe, grated over pasta or served as a topping.',
+            price: '$18.99'
+        },
+        {
+            title: 'Zuppa Gallurese',
+            imgSrc: 'https://media.istockphoto.com/id/1340523699/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%8B%E0%B8%B8%E0%B8%9B%E0%B8%96%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B8%9D%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%82%E0%B9%89%E0%B8%99.jpg?s=1024x1024&w=is&k=20&c=pVGh-SIM0K31Hvj9mcxIz8OnKEl4jcXvP7NyZDh8jMk=',
+            description: 'Sardinian bread soup layered with cheese and broth.',
+            price: '$10.99'
+        },
+        {
+            title: 'Pane Carasau',
+            imgSrc: 'https://media.istockphoto.com/id/672509492/photo/carasau-19.jpg?s=612x612&w=0&k=20&c=9zQXB4-aucXQb4sddHR3BNogKkKJxW32SUGIREUdgMY=',
+            description: 'Traditional Sardinian flatbread, crisp and paper-thin.',
+            price: '$4.99'
+        },
+        {
+            title: 'Pizzoccheri',
+            imgSrc: 'https://media.istockphoto.com/id/1468525075/photo/valtellinas-pizzoccheri.jpg?s=612x612&w=0&k=20&c=wC3rsxEovZP706IfKa9ucTJl2-GNyGwIXpd5qrcDt7M=',
+            description: 'Buckwheat pasta with potatoes, cabbage, and melted cheese.',
+            price: '$14.99'
+        },
+        {
+            title: 'Casoncelli',
+            imgSrc: 'https://media.istockphoto.com/id/1198780438/photo/a-kind-of-ravioli-casoncelli-home-made-traditional-food-of-the-bergamo-area-italy-delicious.jpg?s=612x612&w=is&k=20&c=AcHthp9Dc0tOfdR7hLNJUyRUur1VJGXe77C2D_71XHc=',
+            description: 'Stuffed pasta from Lombardy, often served with butter and sage.',
+            price: '$15.99'
+        },
+        {
+            title: 'Bigoli in Salsa',
+            imgSrc: 'https://media.istockphoto.com/id/533070491/photo/bigoli-with-meat-sauce-duck.jpg?s=612x612&w=0&k=20&c=hrXZCx0pJRkdgi79l2TswuWvWUr6iwMauyUG9zcImyg=',
+            description: 'Thick spaghetti-like pasta with anchovy and onion sauce.',
+            price: '$13.99'
+        },
+        {
+            title: 'Trenette al Pesto',
+            imgSrc: 'https://media.istockphoto.com/id/173838973/photo/trenette-with-pesto-pasta-series.jpg?s=612x612&w=is&k=20&c=V_qR-xfKoUpGuPkElbPM3maEb5L1Wf5UHjVEetW-vj8=',
+            description: 'Ligurian pasta with basil pesto, potatoes, and green beans.',
+            price: '$14.99'
+        },
+        {
+            title: 'Lampredotto',
+            imgSrc: 'https://media.istockphoto.com/id/1317941930/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87-lampredotto-%E0%B9%83%E0%B8%99%E0%B8%9F%E0%B8%A5%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%99%E0%B8%8B%E0%B9%8C%E0%B8%AD%E0%B8%B4%E0%B8%95%E0%B8%B2%E0%B8%A5%E0%B8%B5.jpg?s=612x612&w=0&k=20&c=2c8M8X15ow1sYhuclBbh9TD3c2TnjiK_mnvboXFOAkY=',
+            description: 'Florentine sandwich with slow-cooked tripe.',
+            price: '$8.99'
+        },
+        {
+            title: 'Osso Buco',
+            imgSrc: 'https://media.istockphoto.com/id/492200028/photo/prepared-osso-buco-veal-shank-and-mashed-potatoes.jpg?s=1024x1024&w=is&k=20&c=2NTYGHbk-mA7m8NutlSsiNkmv-90sj-l1Gbpi_C-4SQ=',
+            description: 'Braised veal shanks with a rich vegetable and wine sauce.',
+            price: '$22.99'
+        },
+        {
+            title: 'Cacciatore',
+            imgSrc: 'https://media.istockphoto.com/id/1472798585/photo/italian-braised-chicken-thigh-cacciatore.jpg?s=612x612&w=0&k=20&c=TG-PJWjPFyP-9z7c7oY_FlxjjtEdHVL_U7u9wxEBD7o=',
+            description: 'A hearty stew of chicken or rabbit cooked with tomatoes, onions, and herbs.',
+            price: '$17.99'
+        },
+        {
+            title: 'Scialatielli ai Frutti di Mare',
+            imgSrc: 'https://media.istockphoto.com/id/1304210913/photo/linguine-ai-frutti-di-mare-seafood-pasta-on-plate-top-view.jpg?s=612x612&w=0&k=20&c=FmUskm3ehKSJQMs0bUa7WWm_aHCTqoOpTSXYS7grbDA=',
+            description: 'Handmade short pasta with mixed seafood in a light tomato sauce.',
+            price: '$21.99'
+        },
+        {
+            title: 'Frittata di Pasta',
+            imgSrc: 'https://media.istockphoto.com/id/1186785888/photo/homemade-spaghetti-omelette-on-a-white-plate-side-view-close-up.jpg?s=612x612&w=0&k=20&c=myMku9WQRmhOc9MAPqC0jCl1Q_jZ1kcgNxUEKe1slKo=',
+            description: 'A Neapolitan omelet made with leftover spaghetti, eggs, and cheese.',
+            price: '$9.99'
+        },
     ];
 
     const container = document.querySelector('.container');
@@ -512,7 +656,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
-    items.forEach(item => {
+    for (const item of items) {
         const box = document.createElement('div');
         box.className = 'box';
 
@@ -537,5 +681,5 @@ document.addEventListener('DOMContentLoaded', function () {
         box.appendChild(description);
 
         container.appendChild(box);
-    });
+    };
 });
