@@ -1,5 +1,5 @@
 function displayMenu(data) {
-    const container = document.querySelector('.container');
+    const container = document.querySelector('.row');
 
     if (!container) {
         console.error('Container element not found');
@@ -8,13 +8,16 @@ function displayMenu(data) {
 
     for (const item of data) {
         const box = document.createElement('div');
-        box.className = 'box';
+        box.className = 'col-sm-3';
+
+        const menuItem = document.createElement('div');
+        menuItem.className = 'menu-item';
 
         const title = document.createElement('h3');
         title.textContent = item.title;
 
         const img = document.createElement('img');
-        img.className = 'img';
+        img.className = 'img-rounded';
         img.src = item.imgSrc;
         img.alt = item.title;
 
@@ -25,13 +28,22 @@ function displayMenu(data) {
         const description = document.createElement('p');
         description.textContent = item.description;
 
-        box.appendChild(title);
-        box.appendChild(img);
-        box.appendChild(price);
-        box.appendChild(description);
+        if (Math.random() < 0.2) {
+            const badge = document.createElement('span');
+            badge.className = 'badge';
+            badge.textContent = 'Top Selected – creato per l’eccellenza.';
+            menuItem.appendChild(badge);
+        }
+
+        menuItem.appendChild(title);
+        menuItem.appendChild(img);
+        menuItem.appendChild(price);
+        menuItem.appendChild(description);
+
+        box.appendChild(menuItem);
 
         container.appendChild(box);
-    };
+    }
 }
 
 fetch('menu.json')

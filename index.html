@@ -4,31 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="script.js"></script>
     <title>Buon Gusto</title>
 </head>
 
 <body>
-    <header>
-        <div id="rest_banner">
+    <header class="mb-4">
+        <div id="rest_banner" class="jumbotron jumbotron-fluid text-center">
             <div class="dark"></div>
             <div class="txt_banner">
-                <h1>Buon Gusto</h1>
-                <h2>ALL STAR MENU</h2>
+                <h1 class="display-4">Buon Gusto</h1>
+                <h2 class="lead">ALL STAR MENU</h2>
             </div>
         </div>
     </header>
     <article>
-        <div class="container">
+        <div class="container text-center">
+            <div class="row"></div>
         </div>
     </article>
-    <footer>
+    <footer class="text-center py-3 bg-dark text-white">
+        <a class="up-arrow" href="#rest_banner" data-toggle="tooltip" title="UP TO TOP">
+            <i class="fas fa-chevron-up" style="color: white;"></i>
+        </a>
+        <br><br>
         <p>Made by 66070112</p>
         <span>Reference to</span>
-        <a href="https://www.istockphoto.com/th" target="_blank">iStock</a>
+        <a href="https://www.istockphoto.com/th" target="_blank" class="text-info">iStock</a>
         <span>and</span>
-        <a href="https://unsplash.com/" target="_blank">unsplash</a>
+        <a href="https://unsplash.com/" target="_blank" class="text-info">unsplash</a>
+
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
     </footer>
 </body>
 
