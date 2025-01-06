@@ -8,7 +8,7 @@ function displayMenu(data) {
 
     for (const item of data) {
         const box = document.createElement('div');
-        box.className = 'col-sm-3';
+        box.className = 'col-12 col-sm-6 col-md-4 col-lg-3';
 
         const menuItem = document.createElement('div');
         menuItem.className = 'menu-item';
@@ -17,7 +17,7 @@ function displayMenu(data) {
         title.textContent = item.title;
 
         const img = document.createElement('img');
-        img.className = 'img-rounded';
+        img.className = 'img-rounded img-responsive';
         img.src = item.imgSrc;
         img.alt = item.title;
 

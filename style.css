@@ -56,14 +56,20 @@ header {
     font-weight: bold;
 }
 
-.col-sm-3 {
+.col-12,
+.col-sm-6,
+.col-md-4,
+.col-lg-3 {
     padding: 20px;
-    margin-bottom: 30px;
-    transition: transform 0.3s ease;
+    margin-bottom: 10px;
     position: relative;
+    transition: transform 0.3s ease;
 }
 
-.col-sm-3:hover {
+.col-12:hover,
+.col-sm-6:hover,
+.col-md-4:hover,
+.col-lg-3:hover {
     transform: translateY(-5px);
 }
 
@@ -75,7 +81,9 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
+    transition: all 0.3s ease;
 }
+
 
 .img-rounded {
     width: 100%;
@@ -110,6 +118,11 @@ h3 {
     right: 10px;
     z-index: 3;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover .badge {
+    transform: translateY(-2.5px);
 }
 
 footer {
